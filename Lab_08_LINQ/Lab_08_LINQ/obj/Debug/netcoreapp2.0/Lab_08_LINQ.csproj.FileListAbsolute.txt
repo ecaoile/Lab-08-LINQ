@@ -1,0 +1,11 @@
+C:\Users\Unfie\codefellows\401\Lab-08-LINQ\Lab_08_LINQ\Lab_08_LINQ\bin\Debug\netcoreapp2.0\Lab_08_LINQ.deps.json
+C:\Users\Unfie\codefellows\401\Lab-08-LINQ\Lab_08_LINQ\Lab_08_LINQ\bin\Debug\netcoreapp2.0\Lab_08_LINQ.runtimeconfig.json
+C:\Users\Unfie\codefellows\401\Lab-08-LINQ\Lab_08_LINQ\Lab_08_LINQ\bin\Debug\netcoreapp2.0\Lab_08_LINQ.runtimeconfig.dev.json
+C:\Users\Unfie\codefellows\401\Lab-08-LINQ\Lab_08_LINQ\Lab_08_LINQ\bin\Debug\netcoreapp2.0\Lab_08_LINQ.dll
+C:\Users\Unfie\codefellows\401\Lab-08-LINQ\Lab_08_LINQ\Lab_08_LINQ\bin\Debug\netcoreapp2.0\Lab_08_LINQ.pdb
+C:\Users\Unfie\codefellows\401\Lab-08-LINQ\Lab_08_LINQ\Lab_08_LINQ\obj\Debug\netcoreapp2.0\Lab_08_LINQ.csprojAssemblyReference.cache
+C:\Users\Unfie\codefellows\401\Lab-08-LINQ\Lab_08_LINQ\Lab_08_LINQ\obj\Debug\netcoreapp2.0\Lab_08_LINQ.csproj.CoreCompileInputs.cache
+C:\Users\Unfie\codefellows\401\Lab-08-LINQ\Lab_08_LINQ\Lab_08_LINQ\obj\Debug\netcoreapp2.0\Lab_08_LINQ.AssemblyInfoInputs.cache
+C:\Users\Unfie\codefellows\401\Lab-08-LINQ\Lab_08_LINQ\Lab_08_LINQ\obj\Debug\netcoreapp2.0\Lab_08_LINQ.AssemblyInfo.cs
+C:\Users\Unfie\codefellows\401\Lab-08-LINQ\Lab_08_LINQ\Lab_08_LINQ\obj\Debug\netcoreapp2.0\Lab_08_LINQ.dll
+C:\Users\Unfie\codefellows\401\Lab-08-LINQ\Lab_08_LINQ\Lab_08_LINQ\obj\Debug\netcoreapp2.0\Lab_08_LINQ.pdb
