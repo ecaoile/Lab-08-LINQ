@@ -12,7 +12,7 @@ properties and breaks them down into neighborhoods.
 The following is required to run the program.
 1. Visual Studio 2017 
 2. The .NET desktop development workload enabled
-3. No External NuGet packages are required for this application. 
+3. <b>NewtonSoftJson (external NuGet package) required for this application.</b>
 
 ## Example
 ![Lab 08 Screenshot](Lab08-SS.jpg)
