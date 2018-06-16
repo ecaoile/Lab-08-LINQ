@@ -17,6 +17,12 @@ The following is required to run the program.
 ## Example
 ![Lab 08 Screenshot](Lab08-SS.jpg)
 
+## Happy path
+- play app in Visual Studio
+- read initial input
+- press key for further input
+- repeat last step until the exit message displays
+- smile and close the app
 
 ## Architecture
 This application is created using ASP.NET Core 2.0 Console applicaitons. <br />
@@ -24,13 +30,13 @@ This application is created using ASP.NET Core 2.0 Console applicaitons. <br />
 *Type of Applicaiton*: Console Application <br />
 
 ## Change Log
-06-15-2018 9:00 AM - initial scaffolding
-06-15-2018 10:00 AM - converted JSON file into a string
-06-15-2018 1:00 PM - managed to turn string into an object
-06-15-2018 1:30 PM - managed to turn string into an object
-06-15-2018 2:00 PM - finished first 3 queries
-06-15-2018 4:00 PM - finished last two combo queries
-06-15-2018 5:20 PM - readme complete
+06-15-2018 9:00 AM - initial scaffolding <br />
+06-15-2018 10:00 AM - converted JSON file into a string <br />
+06-15-2018 1:00 PM - managed to turn string into an object <br />
+06-15-2018 1:30 PM - managed to turn string into an object <br />
+06-15-2018 2:00 PM - finished first 3 queries <br />
+06-15-2018 4:00 PM - finished last two combo queries <br />
+06-15-2018 5:20 PM - readme complete <br />
 
 
 
