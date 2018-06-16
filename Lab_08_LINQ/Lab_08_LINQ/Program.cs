@@ -7,7 +7,9 @@ using Lab_08_LINQ.Classes;
 
 namespace Lab_08_LINQ
 {
-
+    /// <summary>
+    /// The main program class that launches the console app
+    /// </summary>
     public class Program
     {
         static void Main(string[] args)
@@ -37,7 +39,7 @@ namespace Lab_08_LINQ
             Console.WriteLine("\n5. Rewrite at least one of these questions only using a LINQ query (without lambda statement)");
             FilterComboNoLambda(myFeatures);
 
-            Console.WriteLine("Thank you for playing! Press any button to exit.");
+            Console.WriteLine("\nThank you for playing! Press any button to exit.");
             Console.ReadKey();
         }
 
@@ -49,7 +51,6 @@ namespace Lab_08_LINQ
         public static FeaturesCollection LoadJson(string filePath)
         {
             using (StreamReader r = new StreamReader(filePath))
-            //using (JsonTextReader jReader = new JsonTextReader(r))
             {
                 string json = r.ReadToEnd();
                 FeaturesCollection myFeatures = JsonConvert.DeserializeObject<FeaturesCollection>(json);
@@ -93,7 +94,9 @@ namespace Lab_08_LINQ
         public static void FilterOutDuplicates(FeaturesCollection myFeatures)
         {
             var results = from i in myFeatures.Features
-                          select i.Properties.Neighborhood;
+                          group i.Properties.Neighborhood by i.Properties.Neighborhood
+                          into uniqueHoods
+                          select uniqueHoods.Key;
             var uniqueResults = results.Distinct();
 
             foreach (var item in uniqueResults)
@@ -110,7 +113,7 @@ namespace Lab_08_LINQ
         {
             var results = myFeatures.Features.Where(x => x.Properties.Neighborhood != "")
                                 .GroupBy(g => g.Properties.Neighborhood)
-                                .Select(y => y.Key).Distinct();
+                                .Select(y => y.Key);
 
             foreach (var item in results)
             {
@@ -119,6 +122,10 @@ namespace Lab_08_LINQ
 
         }
 
+        /// <summary>
+        /// does the above filteres without lambda statements
+        /// </summary>
+        /// <param name="myFeatures"></param>
         public static void FilterComboNoLambda(FeaturesCollection myFeatures)
         {
             var results = from i in myFeatures.Features

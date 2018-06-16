@@ -2,6 +2,9 @@
 
 namespace Lab_08_LINQ.Classes
 {
+    /// <summary>
+    /// the juicy details we actually use for this lab
+    /// </summary>
     public class Properties
     {
         public string Zip { get; set; }

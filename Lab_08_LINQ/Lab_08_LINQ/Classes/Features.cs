@@ -4,6 +4,9 @@ using System.Text;
 
 namespace Lab_08_LINQ.Classes
 {
+    /// <summary>
+    /// class containing a string Type, Geometry object, and Properties object
+    /// </summary>
     public class Features
     {
         public string Type { get; set; }
