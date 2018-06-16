@@ -97,9 +97,8 @@ namespace Lab_08_LINQ
                           group i.Properties.Neighborhood by i.Properties.Neighborhood
                           into uniqueHoods
                           select uniqueHoods.Key;
-            var uniqueResults = results.Distinct();
 
-            foreach (var item in uniqueResults)
+            foreach (var item in results)
             {
                 Console.WriteLine(item);
             }
